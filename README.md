@@ -5,7 +5,9 @@
 ``` js
 const PlatziverseAgent = require('platziverse-agent')
 
-const agent = new PlatziverseAgent()
+const agent = new PlatziverseAgent({
+    interval:2000// A cada 200 ms enviar mensaje
+});
 
 agent.connect()
 
