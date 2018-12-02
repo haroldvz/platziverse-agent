@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/haroldvz/platziverse-agent#readme",
   "devDependencies": {
+    "debug": "^4.1.0",
+    "defaults": "^1.0.3",
+    "mqtt": "^2.18.8",
     "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
   }
 }
